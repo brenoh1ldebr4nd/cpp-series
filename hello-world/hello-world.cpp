@@ -1,7 +1,8 @@
 #include <iostream>
+#include <log.h>
 
 int main(void) 
 {
-	std::cout << "Hello World!" << std::endl;
+	log("Hello World from log function!");
 	std::cin.get();
 }
